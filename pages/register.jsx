@@ -19,7 +19,7 @@ const Register = () => {
     const { errors } = formState;
 
     function onSubmit(data) {
-        axios.post('http://localhost:4000/api/users', data)
+        axios.post('https://accounting-software-backend.vercel.app/api/users', data)
             .then((response) => { (response.status == 200) && router.push('/login'); })
             .catch((err) => { console.log(err); });
     }

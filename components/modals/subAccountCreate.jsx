@@ -25,7 +25,7 @@ const customStyles = {
 // Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement('#__next');
 
-function subAccountModal({ modalIsOpen, closeModal, filter }) {
+function SubAccountModal({ modalIsOpen, closeModal, filter }) {
 
 
 
@@ -106,4 +106,4 @@ function subAccountModal({ modalIsOpen, closeModal, filter }) {
     );
 }
 
-export default subAccountModal;
+export default SubAccountModal;

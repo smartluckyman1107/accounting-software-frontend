@@ -1,6 +1,6 @@
 import axios from 'axios';
 export const instance = axios.create({
-    baseURL: 'http://localhost:4000/api',
+    baseURL: 'https://accounting-software-backend.vercel.app/api',
     timeout: 10000,
     headers: { 'Access-Control-Allow-Origin': '*' }
 });
